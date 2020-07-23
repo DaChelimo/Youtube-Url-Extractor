@@ -3,6 +3,7 @@
 A Youtube urls extractor for java & android for streaming and downloading purpose.
 
 I made this on my Android Device using AIDE(IDE), So i cant update gradle, so dont ask me
+[![](https://jitpack.io/v/Andre-max/YouTube-Url-Extractor.svg)](https://jitpack.io/#Andre-max/YouTube-Url-Extractor)
 
 [Test Apk](https://github.com/naveedhassan913/YouTubeExtractor/raw/master/YoutubeExtractor/app/build/bin/app.apk)
 
