@@ -1,26 +1,28 @@
-package com.naveed.ytextractor;
+package com.andre_max.youtube_url_extractor;
+
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Looper;
+
+import com.andre_max.youtube_url_extractor.model.PlayerResponse;
+import com.andre_max.youtube_url_extractor.model.Response;
+import com.andre_max.youtube_url_extractor.model.StreamingData;
+import com.andre_max.youtube_url_extractor.model.YTMedia;
+import com.andre_max.youtube_url_extractor.model.YTSubtitles;
+import com.andre_max.youtube_url_extractor.model.YoutubeMeta;
+import com.andre_max.youtube_url_extractor.utils.HTTPUtility;
+import com.andre_max.youtube_url_extractor.utils.LogUtils;
+import com.andre_max.youtube_url_extractor.utils.RegexUtils;
+import com.andre_max.youtube_url_extractor.utils.Utils;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonParser;
-import com.naveed.ytextractor.CipherManager;
-import com.naveed.ytextractor.model.PlayerResponse;
-import com.naveed.ytextractor.model.Response;
-import com.naveed.ytextractor.model.StreamingData;
-import com.naveed.ytextractor.model.YTMedia;
-import com.naveed.ytextractor.model.YoutubeMeta;
-import com.naveed.ytextractor.utils.HTTPUtility;
-import com.naveed.ytextractor.utils.LogUtils;
-import com.naveed.ytextractor.utils.RegexUtils;
-import com.naveed.ytextractor.utils.Utils;
+
 import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import com.naveed.ytextractor.model.YTSubtitles;
 
 public class YoutubeStreamExtractor extends AsyncTask<String,Void,Void> {
 
@@ -148,7 +150,7 @@ public class YoutubeStreamExtractor extends AsyncTask<String,Void,Void> {
 		if (body.contains("ytplayer.config")) {
 			return RegexUtils.matchGroup(regexPlayerJson, body);
 		} else {
-			throw new ExtractorException("This Video is unavailable");
+			throw new ExtractorException("This Video is unavialable");
 		}
 	}
 
@@ -225,18 +227,18 @@ public class YoutubeStreamExtractor extends AsyncTask<String,Void,Void> {
 			media.setUrl(live_url);
 			for (String info:info_list) {
 				if (info.startsWith("BANDWIDTH")) {
-					media.setBitrate(Integer.parseInt(info.replace("BANDWIDTH=", "")));
+					media.setBitrate(Integer.valueOf(info.replace("BANDWIDTH=", "")));
 				}
 				if (info.startsWith("CODECS")) {
 					media.setMimeType((info.replace("CODECS=", "").replace("\"", "")));
 				}
 				if (info.startsWith("FRAME-RATE")) {
-					media.setFps(Integer.parseInt((info.replace("FRAME-RATE=", ""))));
+					media.setFps(Integer.valueOf((info.replace("FRAME-RATE=", ""))));
 				}
 				if (info.startsWith("RESOLUTION")) {
 					String[] RESOLUTION= info.replace("RESOLUTION=", "").split("x");
-					media.setWidth(Integer.parseInt(RESOLUTION[0]));
-					media.setHeight(Integer.parseInt(RESOLUTION[1]));
+					media.setWidth(Integer.valueOf(RESOLUTION[0]));
+					media.setHeight(Integer.valueOf(RESOLUTION[1]));
 					media.setQualityLabel(RESOLUTION[1] + "p");
 				}
 			}
@@ -249,7 +251,7 @@ public class YoutubeStreamExtractor extends AsyncTask<String,Void,Void> {
 
 	public interface ExtractorListner {
 		void onExtractionGoesWrong(ExtractorException e);
-		void onExtractionDone(List<YTMedia> adativeStream, List<YTMedia> muxedStream,List<YTSubtitles> subList, YoutubeMeta meta);
+		void onExtractionDone(List<YTMedia> adativeStream, List<YTMedia> muxedStream, List<YTSubtitles> subList, YoutubeMeta meta);
 	}
 
 }     

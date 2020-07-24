@@ -1,1 +1,2 @@
+include ':youtube-url-extractor'
 include ':app'
