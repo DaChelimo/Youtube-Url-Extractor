@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.linsea:universalvideoview:1.1.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/62efaa1c7ad84c67bda0d0b45ec5f279/universalvideoview-1.1.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/62efaa1c7ad84c67bda0d0b45ec5f279/universalvideoview-1.1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/62efaa1c7ad84c67bda0d0b45ec5f279/universalvideoview-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be10b8621e2b1e3e59278ea225b89e00/jetified-universalvideoview-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be10b8621e2b1e3e59278ea225b89e00/jetified-universalvideoview-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be10b8621e2b1e3e59278ea225b89e00/jetified-universalvideoview-1.1.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.linsea/universalvideoview/1.1.0/5393a858f2c040e2c7a21f49061836738c38eb73/universalvideoview-1.1.0-javadoc.jar!/" />
