@@ -75,9 +75,11 @@ val EXAMPLE_URL = "https://www.youtube.com/watch?v=RnJnNru9I78"
                 if (p0 == null) Log.e(TAG, "p0 is null")
                 if (p1 == null) Log.e(TAG, "p1 is null")
 
-                newDownloadUrl = p1?.get(0)?.url
+//		Video url: p1?.get(0)?.url
+                val newDownloadUrl = p1?.get(0)?.url
                 videoData = p3
 
+//		This section is included if you want to download the video.
                 val notAllowedSymbols = "[\\\\><\"|*?%:#/]"
                 filename = videoData?.title ?: "Downloading"
                 filename = filename.filter { char -> !notAllowedSymbols.contains(char) }
