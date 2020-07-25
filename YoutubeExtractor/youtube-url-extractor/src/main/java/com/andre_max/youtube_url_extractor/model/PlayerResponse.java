@@ -42,7 +42,7 @@ public class PlayerResponse {
 	
 	
 
-	public class Captions{
+	public static class Captions{
 		private PlayerCaptionsTracklistRenderer playerCaptionsTracklistRenderer;
 
 		public void setPlayerCaptionsTracklistRenderer(PlayerCaptionsTracklistRenderer playerCaptionsTracklistRenderer) {
@@ -55,7 +55,7 @@ public class PlayerResponse {
 
 		
 		
-		public class PlayerCaptionsTracklistRenderer{
+		public static class PlayerCaptionsTracklistRenderer{
 			private List<YTSubtitles> captionTracks;
 
 
@@ -72,7 +72,7 @@ public class PlayerResponse {
 
 
 	
-	public class PlayabilityStatus{
+	public static class PlayabilityStatus{
 		private String status;
 		private boolean playableInEmbed;
 

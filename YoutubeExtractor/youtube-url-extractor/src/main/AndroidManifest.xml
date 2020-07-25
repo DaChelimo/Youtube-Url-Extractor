@@ -2,4 +2,14 @@
     package="com.andre_max.youtube_url_extractor">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        >
+        <uses-library android:name="com.google.code.gson:gson:2.8.6" android:required="true"/>
+        <uses-library android:name="org.mozilla:rhino:1.7.12" android:required="true"/>
+        <uses-library android:name="com.linsea:universalvideoview:1.1.0@aar" android:required="false"/>
+    </application>
+    
 </manifest>
