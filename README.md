@@ -13,7 +13,10 @@ A Youtube url extractor for Java, Kotlin and Android for streaming and downloadi
 ### Usage
 In the app module:
 ```
-implementation 'com.github.Andre-max:YouTube-Url-Extractor:0.1.4'
+implementation 'com.github.Andre-max:YouTube-Url-Extractor:0.1.3'
+
+// This library also uses Rhino and Gson
+
 ```
 
 In the project gradle:
