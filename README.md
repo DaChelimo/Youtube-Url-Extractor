@@ -35,6 +35,7 @@ allprojects {
 
 ### Usage
 
+Java:
 ```Java
 new YoutubeStreamExtractor(new YoutubeStreamExtractor.ExtractorListner(){
 				@Override
@@ -58,6 +59,7 @@ new YoutubeStreamExtractor(new YoutubeStreamExtractor.ExtractorListner(){
 
 ```
 
+Kotlin:
 ```Kotlin
 val EXAMPLE_URL = "https://www.youtube.com/watch?v=RnJnNru9I78"
 
@@ -96,3 +98,7 @@ val EXAMPLE_URL = "https://www.youtube.com/watch?v=RnJnNru9I78"
 ### For age restricted Videos
 
 For extraction of age restricted videos use `useDefaultLogin()` to use default cookie... or you can override with your own cookies by method `setHeaders` 
+
+### Credit
+Originally created by [Naveed Hassan](https://github.com/naveedhassan913)
+
