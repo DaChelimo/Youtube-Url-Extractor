@@ -1,8 +1,8 @@
-**YouTube Url Extractor**
+# YouTube Url Extractor
 
 A Youtube url extractor for Java, Kotlin and Android for streaming and downloading purpose.
 
-## Features 
+### Features 
 - Extracts Mixed and Adaptive urls separately
 - Extracts Signature Protected Videos(like vevo)
 - Extracts Live Videos Urls(hls) 
@@ -28,12 +28,12 @@ allprojects {
 ```
 
 
-## Dependencies Used 
+### Dependencies Used 
 - Gson
 - Mozilla Rhino
 - UniversalVideoView(Used only for video testing)
 
-Usage
+### Usage
 
 ```Java
 new YoutubeStreamExtractor(new YoutubeStreamExtractor.ExtractorListner(){
@@ -93,6 +93,6 @@ val EXAMPLE_URL = "https://www.youtube.com/watch?v=RnJnNru9I78"
 
 
 
-## For age restricted Videos
+### For age restricted Videos
 
 For extraction of age restricted videos use `useDefaultLogin()` to use default cookie... or you can override with your own cookies by method `setHeaders` 
