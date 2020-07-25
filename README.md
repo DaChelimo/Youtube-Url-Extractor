@@ -1,14 +1,9 @@
-**YouTubeExtractor**
+**YouTube Url Extractor**
 
-A Youtube urls extractor for java & android for streaming and downloading purpose.
-
-I made this on my Android Device using AIDE(IDE), So i cant update gradle, so dont ask me
-[![](https://jitpack.io/v/Andre-max/YouTube-Url-Extractor.svg)](https://jitpack.io/#Andre-max/YouTube-Url-Extractor)
-
-[Test Apk](https://github.com/naveedhassan913/YouTubeExtractor/raw/master/YoutubeExtractor/app/build/bin/app.apk)
+A Youtube url extractor for Java, Kotlin and Android for streaming and downloading purpose.
 
 ## Features 
-- Extracts Muxed and Adaptive urls separately
+- Extracts Mixed and Adaptive urls separately
 - Extracts Signature Protected Videos(like vevo)
 - Extracts Live Videos Urls(hls) 
 - Extracts video info(title,author,description,view,etc)
@@ -16,8 +11,21 @@ I made this on my Android Device using AIDE(IDE), So i cant update gradle, so do
 - Extracts YouTube Video Captions
 
 ### Usage
+In the app module:
+```
+implementation 'com.github.Andre-max:YouTube-Url-Extractor:0.1.4'
+```
 
-`Copy the classes or compile project.`
+In the project gradle:
+```
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url'https://jitpack.io' }
+    }
+}
+```
 
 
 ## Dependencies Used 
@@ -30,7 +38,7 @@ Usage
 ```Java
 new YoutubeStreamExtractor(new YoutubeStreamExtractor.ExtractorListner(){
 				@Override
-				public void onExtractionDone(List<YTMedia> adativeStream, final List<YTMedia> muxedStream,List<YTSubtitles> subtitles, YoutubeMeta meta) {
+				public void onExtractionDone(List<YTMedia> adaptiveStream, final List<YTMedia> mixedStream,List<YTSubtitles> subtitles, YoutubeMeta meta) {
 					//url to get subtitle
 					String subUrl=subtitles.get(0).getBaseUrl();
 					for (YTMedia media:adativeStream) {
@@ -50,9 +58,41 @@ new YoutubeStreamExtractor(new YoutubeStreamExtractor.ExtractorListner(){
 
 ```
 
+```Kotlin
+val EXAMPLE_URL = "https://www.youtube.com/watch?v=RnJnNru9I78"
+
+ val streamExtractorListener = object : YoutubeStreamExtractor.ExtractorListner {
+            override fun onExtractionGoesWrong(p0: ExtractorException?) {
+                Log.e("MainActivity", "$p0")
+                Toast.makeText(applicationContext, "$p0", Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onExtractionDone(p0: MutableList<YTMedia>?,p1: MutableList<YTMedia>?,p2: MutableList<YTSubtitles>?,p3: YoutubeMeta?) {
+                val subUrl = p2?.get(0)?.baseUrl                
+
+                if (p0 == null) Log.e(TAG, "p0 is null")
+                if (p1 == null) Log.e(TAG, "p1 is null")
+
+                newDownloadUrl = p1?.get(0)?.url
+                videoData = p3
+
+                val notAllowedSymbols = "[\\\\><\"|*?%:#/]"
+                filename = videoData?.title ?: "Downloading"
+                filename = filename.filter { char -> !notAllowedSymbols.contains(char) }
+                Log.i(TAG, "filename is $filename")
+
+                Log.i(TAG, "newDownloadUrl is $newDownloadUrl")
+                downloadFromUrl(newDownloadUrl, videoData?.title, filename)
+            }
+        }
+
+        val streamExtractor = YoutubeStreamExtractor(streamExtractorListener)
+        streamExtractor.useDefaultLogin().Extract(EXAMPLE_URL)
+```
+
 
 
 
 ## For age restricted Videos
 
-For extraction of age restricted videos use `useDefaultLogin()` to Use default cookie.. OR YOU CAN override with your own cookies by method `setHeaders` 
+For extraction of age restricted videos use `useDefaultLogin()` to use default cookie... or you can override with your own cookies by method `setHeaders` 
