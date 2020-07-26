@@ -98,8 +98,13 @@ val EXAMPLE_URL = "https://www.youtube.com/watch?v=RnJnNru9I78"
         streamExtractor.useDefaultLogin().Extract(EXAMPLE_URL)
 ```
 
-
-
+### Supported & Tested Itags
+22 = 720p = video
+18 = 360p = video
+251 = 160k = audio
+250 = 70k = audio
+249 = 50k = audio
+140 = 128k = m4a
 
 ### For age restricted Videos
 
