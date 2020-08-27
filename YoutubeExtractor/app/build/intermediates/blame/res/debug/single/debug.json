@@ -1,22 +1,90 @@
 [
     {
-        "merged": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_uvv_star_play_progress_seek.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable\\uvv_star_play_progress_seek.xml"
     },
     {
-        "merged": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_uvv_player_player_btn.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable-xhdpi\\uvv_player_player_btn.png"
     },
     {
-        "merged": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
-        "source": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_uvv_play_vb_bg_progress.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable-xhdpi\\uvv_play_vb_bg_progress.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_uvv_on_error.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable-xhdpi\\uvv_on_error.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\layout_uvv_on_error_layout.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\layout\\uvv_on_error_layout.xml"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_uvv_progress_rotate.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable\\uvv_progress_rotate.xml"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\layout_uvv_player_controller.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\layout\\uvv_player_controller.xml"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\layout_uvv_on_loading_layout.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\layout\\uvv_on_loading_layout.xml"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_uvv_seek_dot.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable-xhdpi\\uvv_seek_dot.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_uvv_itv_player_play.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable-xhdpi\\uvv_itv_player_play.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_uvv_star_zoom_in.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable-xhdpi\\uvv_star_zoom_in.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_uvv_volume_btn.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable-xhdpi\\uvv_volume_btn.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_uvv_back_btn.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable-xhdpi\\uvv_back_btn.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_uvv_stop_btn.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable-xhdpi\\uvv_stop_btn.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_uvv_common_ic_loading_icon.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable-xhdpi\\uvv_common_ic_loading_icon.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_uvv_play_vb_bg.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable-xhdpi\\uvv_play_vb_bg.png"
+    },
+    {
+        "merged": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_uvv_player_scale_btn.png.flat",
+        "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\drawable-xhdpi\\uvv_player_scale_btn.png"
     }
 ]

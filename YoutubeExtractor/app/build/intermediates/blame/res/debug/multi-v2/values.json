@@ -1,29 +1,46 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nicholas Kandie\\.gradle\\caches\\transforms-2\\files-2.1\\be10b8621e2b1e3e59278ea225b89e00\\jetified-universalvideoview-1.1.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-1\\files-1.1\\universalvideoview-1.1.0.aar\\0937ad2e7864e4699df7c0648617a92a\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,12,13,16,23,8,9",
+                        "startLines": "4,5,6,7,8,9,12,13,16,23",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "196,242,285,336,809,867,1066,1451,388,508",
-                        "endLines": "4,5,6,7,12,13,16,26,8,9",
-                        "endColumns": "45,42,50,51,57,55,52,12,119,158",
-                        "endOffsets": "237,280,331,383,862,918,1114,1701,503,662"
+                        "startOffsets": "196,242,285,336,388,508,809,867,1066,1451",
+                        "endLines": "4,5,6,7,8,9,12,13,16,26",
+                        "endColumns": "45,42,50,51,119,158,57,55,52,12",
+                        "endOffsets": "237,280,331,383,503,662,862,918,1114,1701"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,13,17,18",
+                        "startLines": "2,3,4,5,6,7,8,9,10,15",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,101,144,195,247,305,361,600,855,975",
-                        "endLines": "2,3,4,5,6,7,8,16,17,18",
-                        "endColumns": "45,42,50,51,57,55,52,12,119,158",
-                        "endOffsets": "96,139,190,242,300,356,409,850,970,1129"
+                        "startOffsets": "55,101,144,195,247,367,526,584,640,879",
+                        "endLines": "2,3,4,5,6,7,8,9,10,18",
+                        "endColumns": "45,42,50,51,119,158,57,55,52,12",
+                        "endOffsets": "96,139,190,242,362,521,579,635,688,1129"
                     }
                 },
                 {
-                    "source": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "59,114",
+                        "endColumns": "53,52",
+                        "endOffsets": "108,162"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "693,747",
+                        "endColumns": "53,52",
+                        "endOffsets": "742,795"
+                    }
+                },
+                {
+                    "source": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -33,29 +50,12 @@
                         "endOffsets": "132"
                     },
                     "to": {
-                        "startLines": "11",
+                        "startLines": "13",
                         "startColumns": "4",
-                        "startOffsets": "521",
-                        "endLines": "12",
+                        "startOffsets": "800",
+                        "endLines": "14",
                         "endColumns": "9",
-                        "endOffsets": "595"
-                    }
-                },
-                {
-                    "source": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "3,4",
-                        "startColumns": "4,4",
-                        "startOffsets": "59,114",
-                        "endColumns": "53,52",
-                        "endOffsets": "108,162"
-                    },
-                    "to": {
-                        "startLines": "9,10",
-                        "startColumns": "4,4",
-                        "startOffsets": "414,468",
-                        "endColumns": "53,52",
-                        "endOffsets": "463,516"
+                        "endOffsets": "874"
                     }
                 }
             ]

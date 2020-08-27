@@ -1,78 +1,78 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
-MERGED from [com.linsea:universalvideoview:1.1.0] C:\Users\Nicholas Kandie\.gradle\caches\transforms-2\files-2.1\be10b8621e2b1e3e59278ea225b89e00\jetified-universalvideoview-1.1.0\AndroidManifest.xml:2:1-14:12
-INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.linsea:universalvideoview:1.1.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\universalvideoview-1.1.0.aar\0937ad2e7864e4699df7c0648617a92a\AndroidManifest.xml:2:1-14:12
+INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
-		INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:7:5-24:19
-MERGED from [com.linsea:universalvideoview:1.1.0] C:\Users\Nicholas Kandie\.gradle\caches\transforms-2\files-2.1\be10b8621e2b1e3e59278ea225b89e00\jetified-universalvideoview-1.1.0\AndroidManifest.xml:11:5-12:19
-MERGED from [com.linsea:universalvideoview:1.1.0] C:\Users\Nicholas Kandie\.gradle\caches\transforms-2\files-2.1\be10b8621e2b1e3e59278ea225b89e00\jetified-universalvideoview-1.1.0\AndroidManifest.xml:11:5-12:19
+ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [com.linsea:universalvideoview:1.1.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\universalvideoview-1.1.0.aar\0937ad2e7864e4699df7c0648617a92a\AndroidManifest.xml:11:5-12:19
+MERGED from [com.linsea:universalvideoview:1.1.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\universalvideoview-1.1.0.aar\0937ad2e7864e4699df7c0648617a92a\AndroidManifest.xml:11:5-12:19
 	android:label
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:10:9-41
 	android:resizeableActivity
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:12:3-38
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:12:3-38
 	android:icon
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:9:9-45
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:9:9-45
 	android:allowBackup
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.naveed.ytextractor.MainActivity
-ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:13:9-23:20
+ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:13:9-23:20
 	android:screenOrientation
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:15:4-40
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:15:4-40
 	android:label
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:17:13-45
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:17:13-45
 	android:configChanges
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:16:4-54
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:16:4-54
 	android:name
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:14:13-41
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:14:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
-INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
-MERGED from [com.linsea:universalvideoview:1.1.0] C:\Users\Nicholas Kandie\.gradle\caches\transforms-2\files-2.1\be10b8621e2b1e3e59278ea225b89e00\jetified-universalvideoview-1.1.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.linsea:universalvideoview:1.1.0] C:\Users\Nicholas Kandie\.gradle\caches\transforms-2\files-2.1\be10b8621e2b1e3e59278ea225b89e00\jetified-universalvideoview-1.1.0\AndroidManifest.xml:7:5-9:41
-INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
-INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+MERGED from [com.linsea:universalvideoview:1.1.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\universalvideoview-1.1.0.aar\0937ad2e7864e4699df7c0648617a92a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.linsea:universalvideoview:1.1.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\universalvideoview-1.1.0.aar\0937ad2e7864e4699df7c0648617a92a\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
-		INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
-		ADDED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
-		INJECTED from G:\YouTube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+		ADDED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Youtube-Url-Extractor\YoutubeExtractor\app\src\main\AndroidManifest.xml

@@ -4,6 +4,8 @@
     <color name="uvv_gray">#969696</color>
     <color name="uvv_light_gray">#ffF0F0F0</color>
     <color name="uvv_titlebar_bg">#7f000000</color>
+    <declare-styleable name="UniversalMediaController"><attr format="boolean" name="uvv_scalable"/></declare-styleable>
+    <declare-styleable name="UniversalVideoView"><attr format="boolean" name="uvv_fitXY"/><attr format="boolean" name="uvv_autoRotation"/></declare-styleable>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="action_settings">Settings</string>
@@ -15,6 +17,4 @@
         <item name="android:indeterminateDrawable">@drawable/uvv_progress_rotate</item>
         <item name="android:indeterminateDuration">1000</item>
     </style>
-    <declare-styleable name="UniversalMediaController"><attr format="boolean" name="uvv_scalable"/></declare-styleable>
-    <declare-styleable name="UniversalVideoView"><attr format="boolean" name="uvv_fitXY"/><attr format="boolean" name="uvv_autoRotation"/></declare-styleable>
 </resources>

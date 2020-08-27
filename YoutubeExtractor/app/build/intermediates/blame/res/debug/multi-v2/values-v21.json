@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "G:\\YouTube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "E:\\Youtube-Url-Extractor\\YoutubeExtractor\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
